@@ -1,0 +1,15 @@
+.footer-strip {
+  background: var(--color-footer-bg);
+}
+
+.footer-strip-inner {
+  max-width: 56rem;
+  margin-inline: auto;
+}
+
+.footer-title {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+/* Footer uses shared signup-form styles from style.css */

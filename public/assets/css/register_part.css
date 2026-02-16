@@ -1,0 +1,23 @@
+/* Styles specific to register_part partial (signup hero strip) */
+
+.hero-signup-wrapper {
+  background: linear-gradient(
+    90deg,
+    var(--color-hero-signup-start),
+    var(--color-hero-signup-mid),
+    var(--color-hero-signup-end)
+  );
+}
+
+.hero-signup-title {
+  font-size: var(--font-size-hero-title);
+  font-weight: 900;
+}
+
+.hero-signup-subtitle {
+  font-size: var(--font-size-md);
+}
+
+.coming-for-lang{
+	font-size: var(--font-size-sm);
+}

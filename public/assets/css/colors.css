@@ -1,0 +1,83 @@
+:root {
+  /* Purple scale: light → dark */
+  --purple-100: #f2d9ff;  /* soft text accent */
+  --purple-200: #C6AAC6;  /* chip background */
+  --purple-300: #8F618F;  /* chip text */
+  --purple-400: #8E608E;  /* hero gradient start */
+  --purple-500: #431F43;  /* early card border */
+  --purple-600: #371A34;  /* hero gradient end */
+  --purple-700: #402640;  /* hero gradient mid */
+  --purple-800: #331433;  /* coming-soon pill */
+  --purple-900: #2C0F29;  /* dark background */
+  --purple-1000: #260D25; /* alt dark / footer */
+  --purple-dark: #432043;
+
+  /* Semantic colors mapped to palette */
+  --color-bg-dark: var(--purple-900);
+  --color-bg-section: var(--purple-900);
+  --color-bg-section-alt: var(--purple-1000);
+
+  --color-accent-pink: #E01A59;
+  --color-accent-orange: #ff8a3d;
+  --color-accent-teal: #23d5cb;
+
+  --color-text-main: #ffffff;
+  --color-text-muted: #d0b9ff;
+  --color-text-soft: var(--purple-100);
+
+  --color-pill-bg: #3b0243;
+  --color-border-soft: rgba(255, 255, 255, 0.1);
+  --color-button-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.45);
+
+
+  --color-bg-body: #f5f5f7;
+  --color-top-strip-bg: #f8f8fa;
+  --color-top-strip-text: #b0b0bd;
+
+
+  --color-hero-signup-start: var(--purple-400);
+  --color-hero-signup-mid: var(--purple-700);
+  --color-hero-signup-end: var(--purple-600);
+
+
+  --color-section-dark-feature: radial-gradient(
+    ellipse at 32% 90%,
+    #3E0F31 0%,                 
+    var(--purple-900) 40%             
+  );
+
+  --color-section-dark-early-access: radial-gradient(
+    ellipse at 35% 45%,
+    #3E0F31 5%,            
+    var(--purple-900) 70%                  
+  );
+
+
+
+  --color-surface-white: #ffffff;
+
+
+  --color-accent-pink-hover: #ff4da0;
+
+
+  --color-input-bg: rgba(8, 0, 15, 0.7);
+  --color-input-focus-shadow: 0 0 0 0.2rem rgba(35, 213, 203, 0.3);
+
+
+  --color-card-highlight: rgba(255, 255, 255, 0.06);
+  --color-card-surface: rgba(10, 0, 16, 0.95);
+  --color-icon-circle-bg: rgba(0, 0, 0, 0.25);
+
+
+  --color-chip-bg: var(--purple-200);
+  --color-chip-text: var(--purple-300);
+
+
+  --color-footer-bg: var(--purple-1000);
+
+
+  --color-early-card-highlight: rgba(255, 255, 255, 0.05);
+  --color-early-card-bg: var(--purple-1000);
+  --color-early-card-pill-coming-soon: var(--purple-800);
+  --color-early-card-border: var(--purple-500);
+}

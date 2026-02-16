@@ -1,0 +1,163 @@
+:root {
+  --font-size-xs: 14px;   
+  --font-size-sm: 16px;  
+  --font-size-md: 18px; 
+  --font-size-lg: 20px; 
+	--font-size-xl: 24px; 
+  --font-size-display: 50px;
+  --font-size-hero-title: 40px;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../font/Gotham Regular.otf") format("otf");
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg-body);
+  color: var(--color-text-main);
+  font-family: "Gotham", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.section-darker {
+  background: var(--color-bg-section-alt);
+}
+
+.section-header-top {
+  background:  var( --color-bg-dark);;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-header-top::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/assets/images/c-plus-puls-bg-header.png") no-repeat right top;
+  background-size: contain;
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+@media (max-width: 1399.98px) {
+  .section-header-top::after {
+    content: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-header-top::after {
+    opacity: 0.35;
+    background-position: center top;
+  }
+}
+
+.iron-logo {
+  height: 40px;
+}
+
+.heading-eyebrow {
+  font-size: var(--font-size-md);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.display-title {
+  font-size: var(--font-size-display);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0px;
+}
+
+.lead-text {
+  color: var(--color-text-muted);
+  max-width: 32rem;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--color-accent-pink);
+  --bs-btn-border-color: var(--color-accent-pink);
+  --bs-btn-hover-bg: var(--color-accent-pink-hover);
+  --bs-btn-hover-border-color: var(--color-accent-pink-hover);
+  --bs-btn-focus-shadow-rgb: 249, 44, 139;
+  box-shadow: var(--color-button-shadow);
+  border-radius: 999px;
+  padding-inline: 2.3rem;
+  padding-block: 0.75rem;
+}
+
+.chip-soft {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 2px 18px;
+  border-radius: 126px;
+  background: var(--color-chip-bg);
+  font-weight: 700;
+  border: 1px solid var(--color-border-soft);
+  font-size: var(--font-size-xs);
+  color: var(--color-chip-text);
+}
+
+/* Shared signup form (hero + footer) */
+
+.signup-form-wrap {
+  width: 100%;
+}
+
+.signup-form {
+  display: flex;
+  align-items: stretch;
+  background: var(--color-surface-white);
+  border-radius: 999px;
+  border: 3px solid var(--color-chip-bg);
+}
+
+.signup-input {
+  border: none;
+  border-radius: 81px;
+	height: 61px;
+  box-shadow: none;
+  padding-inline: 1.25rem;
+	font-size: var(--font-size-xs);
+}
+
+.signup-input:focus {
+  box-shadow: none;
+}
+
+.signup-input::placeholder {
+  color: var(--purple-dark);
+	font-size: var(--font-size-xs);
+  opacity: 1;
+}
+
+
+.signup-btn {
+  border-radius: 79px;
+  padding-inline: 20px;
+	width: 180px;
+	font-size: var(--font-size-sm);
+  white-space: nowrap;
+	box-shadow: none !important;
+}
+
+
+

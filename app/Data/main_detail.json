@@ -1,0 +1,43 @@
+{
+  "features": {
+    "title": "IronPDF for C++",
+    "items": [
+      "Generate PDFs from HTML in C++",
+      "Combine, split, and modify PDFs quickly in C++",
+      "Extract text and images from PDFs using C++"
+    ]
+  },
+  "why": {
+    "title_prefix": "Why make a",
+    "title_highlight": "C++ PDF Library",
+    "paragraphs": [
+      "C++ is one of the most popular, oldest, and important programming languages in use, being the language of choice in low-level systems and network programming and other domains where performance is critical.",
+      "The release of IronPDF for C++ will aid developers in building performant applications that can carry out PDF-related processing tasks."
+    ]
+  },
+  "early_access": {
+    "title_prefix": "Early Access to",
+    "title_highlight": "C++ PDF Library",
+    "description": "Joining the early access program will allow you to collaborate closely with our engineering team. You will be playing a key role in the development process as you share your early experiences using the C++ PDF library before its official launch. Your continual feedback after we release the library will be immensely helpful as we release new features and improve on existing features.",
+    "products": [
+      {
+        "status": "released",
+        "product_name_bold": "IRON",
+        "product_name_rest": "PDF",
+        "language": "for Java"
+      },
+      {
+        "status": "coming soon",
+        "product_name_bold": "IRON",
+        "product_name_rest": "PDF",
+        "language": "for Python"
+      },
+      {
+        "status": "coming soon",
+        "product_name_bold": "IRON",
+        "product_name_rest": "PDF",
+        "language": "for NodeJS"
+      }
+    ]
+  }
+}

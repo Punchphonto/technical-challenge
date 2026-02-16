@@ -1,0 +1,157 @@
+/* Styles specific to main_detail partial (features, why, early access) */
+
+/* Section backgrounds for main_detail */
+.section-why {
+  background: var(--color-hero-signup-mid);
+}
+
+.section-dark-feature {
+  background: var(--color-section-dark-feature);
+}
+
+.section-dark-early-access {
+  background: var(--color-section-dark-early-access);
+}
+
+/* IronPDF for C++ section */
+
+.iron-heading-wrap {
+  text-align: center;
+}
+
+.iron-title {
+  font-size: var(--font-size-hero-title);
+  font-weight: 700;
+}
+
+.iron-heading {
+  padding-top: 0.5rem;
+}
+
+.iron-badge {
+  position: absolute;
+  top: -1.2rem;
+  right: -3.4rem;
+}
+
+.iron-badge-img {
+  display: block;
+  width: 85px;
+  height: auto;
+}
+
+.iron-feature-list {
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+  margin: 0;
+  color: var(--color-text-soft);
+  font-size: var(--font-size-sm);
+}
+
+.iron-feature-item {
+  padding: 0.35rem 0;
+}
+
+.library-detail{
+    font-size: var(--font-size-sm);
+}
+
+@media (min-width: 768px) {
+  .iron-feature-item {
+    padding-inline: 2.2rem;
+  }
+
+  .iron-feature-item + .iron-feature-item {
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+  }
+}
+
+/* HTML → PDF graphic cluster */
+
+.html-to-pdf {
+  opacity: 1;
+  height: 220px;
+  position: relative;
+}
+
+.html-to-pdf-icon {
+  top: 0px;
+  left: -20px;
+  z-index: 3;
+  position: absolute;
+}
+
+.logo-shadow-html {
+  z-index: 1;
+  top: 30px;
+  left: 10px;
+  height: 100px;
+  width: 90px;
+  box-shadow: 0 0 90px 10px rgba(224, 26, 89, 0.7);
+  position: absolute;
+}
+
+.logo-shadow-pdf {
+  z-index: 1;
+  top: 80px;
+  left: 160px;
+  height: 100px;
+  width: 90px;
+  box-shadow: 0 0 60px 10px rgba(224, 26, 89, 0.7);
+  position: absolute;
+}
+
+/* Why C++ PDF Library section */
+
+.content-title {
+  font-size: var(--font-size-hero-title);
+  font-weight: 900;
+  line-height: 46px;
+}
+
+.why-text {
+  font-size: var(--font-size-sm);
+}
+
+.why-image {
+  max-width: 460px;
+}
+
+/* Early Access cards */
+
+.early-access-row {
+  margin-top: 2.5rem;
+}
+
+.early-access-card {
+  border-radius: 999px;
+  background: var(--color-early-card-bg);
+  border: 2px solid var(--color-early-card-border);
+  padding: 23px 30px;
+  color: var(--color-text-main);
+}
+
+.early-access-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 2px 18px;
+  border-radius: 126px;
+  background: var(--color-early-card-pill-coming-soon);
+  font-size: var(--font-size-xs);
+}
+
+.early-access-product {
+  font-size: var(--font-size-lg);
+}
+
+.early-access-language {
+  font-size: var(--font-size-xs);
+}
+
+@media (max-width: 767.98px) {
+  .early-access-card {
+    border-radius: 1.25rem;
+  }
+}

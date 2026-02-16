@@ -1,0 +1,26 @@
+.navbar-dark-custom {
+  background: transparent;
+}
+
+.navbar-dark-custom .nav-link {
+  color: var(--color-text-main);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding-inline: 0.9rem;
+}
+
+.navbar-dark-custom .nav-link:hover {
+  color: var(--color-text-main);
+}
+
+.nav-logo-img {
+  height: 24px;
+}
+
+.nav-logo-text {
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  font-weight: 700;
+}
