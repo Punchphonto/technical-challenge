@@ -32,6 +32,8 @@
       crossorigin="anonymous"
     ></script>
 
+    <script src="<?= base_url('assets/js/signup.js') ?>"></script>
+
     <?= $this->renderSection('scripts') ?>
   </body>
 </html>

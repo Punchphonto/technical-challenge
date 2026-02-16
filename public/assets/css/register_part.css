@@ -21,3 +21,9 @@
 .coming-for-lang{
 	font-size: var(--font-size-sm);
 }
+
+.signup-toast-wrapper {
+  top: 1rem;
+  right: 1rem;
+  z-index: 1100;
+}

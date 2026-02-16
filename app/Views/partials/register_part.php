@@ -9,12 +9,18 @@
       </div>
       <div class="col-xl-5 col-lg-7 col-md-12">
         <div class="signup-form-wrap mx-auto">
-          <form class="signup-form" action="#">
+          <form
+            class="signup-form"
+            action="#"
+            id="signup-form"
+            data-toast-id="signupToast"
+            data-email-input-id="hero-email"
+          >
             <label class="visually-hidden" for="hero-email">Email</label>
             <input
               type="email"
               id="hero-email"
-              require="true"
+              required
               class="form-control signup-input fw-medium p-3"
               placeholder="Enter email adress"
             />
@@ -22,6 +28,24 @@
               Sign up now ▸
             </button>
           </form>
+          <div
+            class="position-fixed signup-toast-wrapper"
+          >
+            <div
+              id="signupToast"
+              class="toast"
+              role="alert"
+              aria-live="assertive"
+              aria-atomic="true"
+            >
+              <div class="toast-header">
+                <strong class="me-auto">Notification</strong>
+              </div>
+              <div class="toast-body">
+                Thanks for sign up
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div 
