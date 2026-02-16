@@ -8,9 +8,19 @@ Follow the steps below to install dependencies and run it locally.
 - PHP `8.2` or higher
 - [Composer](https://getcomposer.org/) installed and available on your `PATH`
 
+## Technologies Used
+- PHP
+- composer
+- CodeIgniter
+- HTML
+- CSS
+- Bootstrap
+
 ## 1. Install dependencies
 
-From the project root (this folder), run:
+To run this project locally, follow these steps:
+- Clone the repository.
+- Install Dependencies
 
 ```bash
 composer install
