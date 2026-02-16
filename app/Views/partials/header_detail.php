@@ -2,7 +2,7 @@
   <div class="container py-5 py-lg-6">
     <div class="row align-items-center g-5">
       <div class="col-lg-7 col-md-12">
-        <div class="d-flex align-items-center mb-4">
+        <div class="d-flex align-items-center mb-5">
           <img
             src="/assets/images/iron-pdf-logo.png"
             alt="IronPDF for C++"
