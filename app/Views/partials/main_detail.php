@@ -40,14 +40,14 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-12 col-xl-12 text-start text-white library-detail">
-          <p class="mb-3 fw-lighter">
+          <p class="mb-3 fw-light">
             The new <span class="mb-3 fw-medium">IronPDF library for C++</span> will enhance
             the C++ developer's tool set with robust PDF generation and
             conversion capabilities. Developers will be able to generate new
             PDFs from HTML content (from text or from URL), as well as to
             combine, split, extract, and modify content from existing PDFs.
           </p>
-          <p class="mb-0 fw-lighter">
+          <p class="mb-0 fw-light">
             <span class="mb-3 fw-medium">IronPDF for C++</span> will help developers create C++
             applications that can do all of these PDF processing tasks and
             more, with speed, precision, control, and excellence.
@@ -134,11 +134,7 @@
                 </span>
                 <div class="text-md-start text-center text-purple-200">
                   <div class="early-access-product">
-                    <span class="fw-bold"><?=
-                          esc($product['product_name_bold'])
-                        ?>
-                    </span>
-                    <span><?= esc($product['product_name_rest']) ?></span>
+                    <span class="fw-medium"><?=esc($product['product_name_bold'])?></span><span class="fw-light"><?= esc($product['product_name_rest']) ?></span>
 									</div>
                   <div class="early-access-language fw-light">
                     <?= esc($product['language']) ?>
