@@ -16,18 +16,7 @@ From the project root (this folder), run:
 composer install
 ```
 
-## 2. Environment configuration
-
-1. Copy the example environment file:
-
-	```bash
-	cp env .env
-	```
-
-2. Open `.env` and update at least:
-	- `app.baseURL` – usually `http://localhost:8080/`
-
-## 3. Run the development server
+## 2. Run the development server
 
 Use CodeIgniter’s CLI (Spark) from the project root:
 
