@@ -11,6 +11,7 @@
             <input
               type="email"
               id="footer-email"
+              require="true"
               class="form-control signup-input"
               placeholder="Enter email adress"
             />

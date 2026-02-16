@@ -9,7 +9,6 @@ class Main extends BaseController
 {
    public function index()
     {
-        // สั่งระบุชื่อไฟล์พร้อมนามสกุล .html ได้เลย
         return view('index.html');
     }
 }

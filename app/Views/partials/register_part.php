@@ -14,6 +14,7 @@
             <input
               type="email"
               id="hero-email"
+              require="true"
               class="form-control signup-input fw-medium p-3"
               placeholder="Enter email adress"
             />
